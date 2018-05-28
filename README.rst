@@ -37,7 +37,7 @@ Contributing
 We welcome contributions to BDOC-db! These are the many ways you can help:
 
 * Submit patches and features
-* Make BDOC-db ( *new updates for community server* )
+* Make BDOC-db ( *new updates for database configuration or queries* )
 * Improve the documentation for BDOC-db_
 * Report bugs 
 * And Donate bdoc-donate_ !
