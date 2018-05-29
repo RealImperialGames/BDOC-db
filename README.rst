@@ -18,16 +18,45 @@ BDOC-db ( *Black Desert Online Community, database module* )
   :target: https://github.com/RealImperialGames/BDOC-db/releases/latest
 
 
+Just module to allow to **BDOC-db** handle *database installation and setup*
+
+PREREQUISITES
+-------------
+
++ 1. Need to install Docker for windows : https://download.docker.com/win/stable/DockerToolbox.exe
+
+
 How to install ?
 ----------------
 
-+ 1. Install from setup.py file : ``python setup.py install``
++ 1. *PREREQUISITES*
++ 2. Install from setup.py file : ``python setup.py install``
 
 
 How to exec tests ?
 -------------------
 
-+ 1. Tests from setup.py file : ``python setup.py test``
++ 1. *PREREQUISITES*
++ 2. Tests from setup.py file : ``python setup.py test``
+
+
+How to **start** DB ?
+---------------------
+
++ 1. *PREREQUISITES*
++ 2. *Clone this repo* : ``git clone http://ntz-git.tk/IG/BDO-database.git``
++ 3. *Enter on repo directory* : ``cd BDO-database``
++ 4. *cd to bdodatabase/data/docker and* **start mongodb database with** : ``docker-compose up``
+
+
+Configuration File
+------------------
+
+::
+
+    {
+      "TODO":"TODO"
+    }
 
 
 
